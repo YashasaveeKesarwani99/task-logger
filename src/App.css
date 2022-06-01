@@ -1,0 +1,25 @@
+/* class name convention: <pageName>-<componentName>-<divType>-<elementType>
+for example - home-header-headerLeft-h1 */
+
+body{
+    background-color: rgb(243, 239, 239);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif; 
+}
+
+/* Styling home */
+.home-main{
+    margin: 10vh auto;
+    width: 60vw;
+    height: 80vh;
+    background-color: white;
+}
+
+.home-main-subContainer{
+    width: 70%;
+    height: 80%;
+    padding: 5% 5% ;
+    margin: 0 auto;
+}
